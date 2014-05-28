@@ -233,3 +233,14 @@ ul.social li{padding:6% 0;}
 @media screen and (max-width: 320px) {
 .borders ul li{padding:4% 0.1%;width:27%;}
 }
+
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
