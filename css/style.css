@@ -368,3 +368,11 @@ ul.social li{padding:6% 0;}
 }
 .icon-desc  .services_icon   {margin-left: 3%;
     width: 20%;}
+	.ratingwrap { margin: 0 auto;
+width: 128px;
+margin-top: 10px;}
+	
+	* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/copy in UIWebView */
+}
