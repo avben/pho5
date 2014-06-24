@@ -39,6 +39,9 @@
           <div class="swiper-container swiper-nested">
                    <div class="swiper-wrapper">
                         <div class="swiper-slide">
+                                  <span class="toggle_container">
+                                  
+                                  </span>
                                   <div class="slide-inner">
      
                                         <div class="menu">
@@ -52,10 +55,10 @@
 
                                         </ul>
                                         <div class="clearfix"></div>
-                                        </div>
+                                    </div>
                                
-                                 </div>
-                         </div>
+                          </div>
+                     </div>
                    </div>
                   <div class="swiper-scrollbar"></div>
           </div> 
@@ -140,28 +143,15 @@
                     <div class="swiper-slide">
                               <div class="slide-inner">
                                         <div class="pages_container">
-                                        <h2 class="page_title">Résultat de recherche    <select name="one" class="dropdown-select">
-       <option value="">Par VILLE</option>
-                                                <option value="1">Agadir</option>
-                                                <option value="162">Bouznika</option>
-                                                <option value="2">Casablanca</option>
-                                                <option value="14">El Jadida</option>
-                                                <option value="3">Essaouira</option>
-                                                <option value="4">Fès</option>
-                                                <option value="5">Marrakech</option>
-                                                <option value="12">Meknès</option>
-                                                <option value="7">Ouarzazate</option>
-                                                <option value="8">Rabat</option>
-                                                <option value="163">Rabat-Salé</option>
-                                                <option value="9">Tanger</option>
-                                                <option value="10">Taroudant</option>
-      </select></h2>
+                                        <h2 class="page_title">Résultat de recherche    </h2>
                                         <div class="toogle_wrap radius8">
                                           <div class="trigger"><a href="#">Filtre</a></div>
                                             <div class="toggle_container">
+                                              <form class="form">
+                                              <label>Par ville :</label>
                                            <div class="dropdown">
       <select name="one" class="dropdown-select">
-       <option value="">Par VILLE</option>
+       <option value="">--- VILLE ----</option>
                                                 <option value="1">Agadir</option>
                                                 <option value="162">Bouznika</option>
                                                 <option value="2">Casablanca</option>
@@ -178,10 +168,11 @@
       </select>
     </div>
                                            <div  class="clearfix">.</div>
-                                          
+                                          <label>Par type :</label>
                                           <div class="dropdown">
+                                          
       <select name="one" class="dropdown-select">
- <option value="">Hebergement</option>
+ <option value="">---- Hebergement ----</option>
                                                 <option value="1">riad</option>
                                                  <option value="1">hotel</option>
                                                   <option value="1">auberges</option>
@@ -189,8 +180,8 @@
                                                     <option value="1">villas</option>
                                                 
       </select>
-    </div>
-                                            </div>
+    </div></form>
+                                          </div>
                                         </div>
                                         <div class="portfolio_item radius8">
                                              <div class="portfolio_image"><a rel="gallery-1" href="images/portfolio_thumb.jpg" class="swipebox" title="Webdesign work"><img src="images/portfolio_thumb.jpg" alt="" title="" border="0" /></a></div>
@@ -301,32 +292,14 @@
 <script type="text/javascript" src="js/idangerous.swiper-2.1.min.js"></script>
 <script type="text/javascript" src="js/idangerous.swiper.scrollbar-2.1.js"></script>
 <script type="text/javascript" src="js/jquery.tabify.js"></script>
-<script type="text/javascript" src="js/jquery.fitvids.js"></script>
 <script type="text/javascript" src="js/code.js"></script>
 <script type="text/javascript" src="js/splash.js"></script>
 <script type="text/javascript" src="js/load.js"></script>
 <script src='js/jquery.MetaData.js' type="text/javascript" language="javascript"></script>
  <script src='js/jquery.rating.js' type="text/javascript" language="javascript"></script>
 
-<!--Twitter Feed-->
-<script type="text/javascript" src="js/twitter/jquery.tweet.js" charset="utf-8"></script>
-<script type="text/javascript" charset="utf-8">
-var $ = jQuery.noConflict();  
-jQuery(function($){
-$(".tweet").tweet({
-  modpath: 'js/twitter/',
-  join_text: "auto",
-  username: "famousthemes",
-  count: 5,
-  auto_join_text_default: "we said,",
-  auto_join_text_ed: "we",
-  auto_join_text_ing: "we were",
-  auto_join_text_reply: "we replied",
-  auto_join_text_url: "we were checking out",
-  loading_text: "loading tweets..."
-});
-});
-</script>
+
+
 </body>
 
 </html>
