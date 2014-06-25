@@ -176,8 +176,8 @@ $(".swipebox").swipebox();
 });
 $(function() {
 $('#tabsmenu').tabify();
-$(".videocontainer").fitVids();
 $(".toggle_container").hide();
+$(".toggle_container.open").show();
 $(".toggle_container_blog").hide();
 $(".trigger").click(function(){
    $(this).toggleClass("active").next().slideToggle( "slow", function() {
