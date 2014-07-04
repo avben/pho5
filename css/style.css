@@ -366,10 +366,19 @@ ul.social li{padding:6% 0;}
 width: 128px;
 margin-top: 10px;}
 	
-.svg path {
-                fill: #00b4ff;  
-            }
-           
+
+     	 .svg path, svg  polygon,  svg  rect  {
+   fill: #3366cc !important;  
+}      
+	 body .menu ul li{ border:1px #3366cc solid;}
+	 .menu ul li a span {color: #0d2e6e}
+	
+	 .replaced-svg {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    height: 50%;
+}      
 /*
     -webkit-touch-callout: none;
     -webkit-user-select: none; /* Disable selection/copy in UIWebView 
