@@ -366,7 +366,14 @@ ul.social li{padding:6% 0;}
 width: 128px;
 margin-top: 10px;}
 	
-
+.svg path {
+                fill: red;
+            }
+            .svg rect {
+                fill: green;
+            }
+	
+/*
     -webkit-touch-callout: none;
     -webkit-user-select: none; /* Disable selection/copy in UIWebView 
 }
@@ -378,4 +385,6 @@ margin-top: 10px;}
     -o-user-select: none;
     user-select: none;
 }
+
+
 
