@@ -14,6 +14,7 @@
 
 Swiper.prototype.plugins.scrollbar = function(swiper, params){
 	
+	
 	var enabled = params && params.container;
 	if(!enabled) return;
 	

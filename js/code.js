@@ -10,7 +10,11 @@ paginationClickable: true,
 onSlideChangeEnd : function() {
   //Do something when you touch the slide
   if (swiperParent.activeIndex != 0){
+	var mainTitle = $('.swiper-slide-active .swiper-slide-active h2.page_title') .text();
+  $('#mainTitle').text(' ');
+  $('#mainTitle').text(mainTitle);
   $('#header').animate({'top':'0px'},400);
+  
   }
   if (swiperParent.activeIndex == 0){
   $('#header').animate({'top':'-100px'},400);
