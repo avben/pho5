@@ -366,19 +366,20 @@ ul.social li{padding:6% 0;}
 width: 128px;
 margin-top: 10px;}
 	
-
+img.svg { margin-top: -15%; position:relative; top:7px; }
      	 .svg path, svg  polygon,  svg  rect  {
    fill: #3366cc !important;  
 }      
-	 body .menu ul li{ border:1px #3366cc solid;}
-	 .menu ul li a span {color: #0d2e6e}
-	
-	 .replaced-svg {
-    width: 50%;
-    padding: 0;
-    margin: 0;
-    height: 50%;
-}      
+	 body .menu ul li{ border:1px #3366cc solid; border-radius:50% !important;}
+	 .menu ul li a span  span{color: #0D2E6E;
+font-size: 13px !important;
+
+font-weight: bold;
+display:inline;
+width: 10%;
+margin-bottom: 3%;vertical-align: middle; display: table-cell;}
+	 .menu ul li a span.parent {line-height: 16px;height: 32px;padding: 0px 2px;display: table;}
+
 .headerHome {
 		padding:10px;
 		color:#FFF;
@@ -392,6 +393,26 @@ margin-top: 10px;}
 .headerHome  h2{ margin:10px 0 0 0 ; padding:0; font-size:18px;}
 .headerHome  img {  position:absolute; left:10px;; width:75px; top:5px;}
 
+.form.pages_container {
+    margin: 0px 2.5%   20px 2.5%;
+    padding: 0px 2.5% 20px 2.5%;
+}
+
+
+.showMap {
+
+    position: relative; cursor:pointer;
+
+}
+
+
+.showMap img {
+    display: inline;
+    left: 52px;
+    position: absolute;
+    top: 5px;
+    width: 26px;
+}
 /*
     -webkit-touch-callout: none;
     -webkit-user-select: none; /* Disable selection/copy in UIWebView 
@@ -408,3 +429,4 @@ margin-top: 10px;}
 
 
 
+*/

@@ -18,7 +18,7 @@ h2.page_title{color:#000000;}
 .menu ul{ list-style:none; padding:0px; margin:0px; width:100%;}
 .menu ul li{ list-style:none; margin:1% 0 2% 4%; padding:5.5% 0; width:28%;height:auto; float:left; display:block; text-align:center;border:1px #333333 solid;-webkit-border-radius: 200px;-moz-border-radius: 200px;border-radius: 200px;}
 .menu ul li a{ color:#000000; text-decoration:none;  text-align: center;} 
-.menu ul li a span{ display:block; text-align:center; font-size:11px; line-height:15px;}
+.menu ul li a span{ display:block; text-align:center;  }
 .menu ul li img{ display:inline-block;max-width:50%;}
 
 .sliderbg_menu{background-color: #ffffff;}
